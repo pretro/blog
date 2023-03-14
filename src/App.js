@@ -1,10 +1,13 @@
-import './App.css';
-
+import Topbar from "./components/topbar/Topbar";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
-    <div className="App">
-      hello world!
-    </div>
+    <Router>
+    <Topbar />
+      <Routes>
+        
+      </Routes>
+    </Router>
   );
 }
 
